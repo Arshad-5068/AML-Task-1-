@@ -56,7 +56,7 @@ streamlit run Iris.py
 
 ## Results
 
-- The code prints model accuracy and the classification report to the console. In the current run, the model accuracy is approximately **0.9667** (as shown in the app).
+![Input Form](https://github.com/Arshad-5068/AML-Task-1-/blob/main/Output.png?raw=true)
 
 ---
 
@@ -69,16 +69,4 @@ streamlit run Iris.py
 
 ---
 
-## Suggestions / Next steps
 
-- Save the trained model to disk (e.g., with `joblib`) so the app does not need to re-train on each run.
-- Add a `requirements.txt` and CI checks.
-- Add unit or integration tests for the preprocessing and prediction pipeline.
-
----
-
-## License
-
-Add a license of your choice (e.g., MIT) or keep this repository as-is.
-
----
