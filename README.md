@@ -60,13 +60,5 @@ streamlit run Iris.py
 
 ---
 
-## Code Notes
-
-- `Iris.py` loads `sklearn.datasets.load_iris()` and splits the data using `train_test_split(..., stratify=y)`.
-- Standardization is applied via `StandardScaler()`.
-- Model: `SVC(kernel='rbf', C=1.0, gamma='scale')`.
-- The saved confusion matrix plot is shown inside the Streamlit page using `st.pyplot()`.
-
----
 
 
